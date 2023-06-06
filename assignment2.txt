@@ -1,0 +1,31 @@
+Answer1. Git is a distributed version control system (VCS) that is widely used in software development. It allows multiple developers to collaborate on a project by keeping track of changes                                        
+         to files over time.
+
+Answer2. A version control system (VCS) is a software tool that helps manage changes to files and track different versions of those files over time.
+         1. Centralized Version Control Systems (CVCS)
+         2. Distributed Version Control Systems (DVCS)
+
+Answer3. GitHub is a web-based hosting service and a platform for version control using Git. It provides a graphical user interface and a variety of collaboration features to make it easier 
+         for individuals and teams to work on software development projects. GitHub is widely used by developers and organizations around the world to host, manage, and collaborate on code
+         repositories.
+
+Answer4. 1. GitLab
+         2. Bitbucket
+         3. SourceForge
+
+Answer5. 1. Centralized Version Control Systems (CVCS): CVCSs have a central server that stores the repository of files and their versions. Developers check out files from the central server      
+            to work on them locally and then commit their changes back to the server.
+        
+         2. Distributed Version Control Systems (DVCS): DVCSs provide each developer with a complete copy of the repository, including its entire history. This allows developers to work 
+            independently, commit changes locally, and later synchronize those changes with other repositories.  
+
+Answer6. 1. version history
+         2. distributed development
+         3. speed and performance 
+         4. collaboration and code review
+         5. community and open source ecosystem
+
+Answer7. A Git repository is a storage location where all the files, directories, and the complete version history of a project are stored. It is the core component of Git and serves as a 
+         central hub for managing and tracking changes to files over time.
+
+Answer8. By using git init command.
