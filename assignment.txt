@@ -1,0 +1,45 @@
+Q1. what is a computer?
+
+Answer. A computer is a device that processes and manipulates data according to a set of instructions.
+        It is an electronic machine that can perform various tasks and calculations at a high speed.
+        Computers can handle large amounts of information and execute complex operations.
+
+Q2. what is RAM ?
+
+Answer. RAM stands for Random Access Memory.
+        It is a type of computer memory that is used to store data that is actively being accessed and used by the computer's processor.
+        RAM is considered volatile memory, which means that its contents are lost when the power to the computer is turned off.
+
+Q3. where is data stored in a computer ?
+
+Answer. In a computer, data is stored in various types of storage devices, depending on the purpose and accessibility requirements.
+        1.RAM
+        2.HDD
+        3.SSD
+        4.External storage devices.
+
+Q4. what is that input device used to type text and numbers on a documents in the computer system ?
+
+Answer. keyboard
+
+Q5. what are output devices?
+
+Answer. Output devices are components of a computer system that receive information or data from the computer and present or display it to the user in a human-readable form.
+        They allow users to interact with and perceive the output or results of the computer's processing. 
+        1.Printer
+        2.Speaker etc......
+
+Q6. which is the input device that allows a user to move a cursor or pointer on the screen?
+
+Answer. mouse
+
+Q7. which language is directly understood by the computer without a translation program?
+
+Answer. Machine language
+
+Q8. what are input devices? 
+
+Answer. Input devices are components of a computer system that allow users to provide data or instructions to the computer for processing.
+        These devices enable users to interact with the computer and input information in various forms.
+        1.keyboard
+        2.mouse etc......
