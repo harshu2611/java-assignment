@@ -1,0 +1,25 @@
+Answer1. By using git version OR git --version command.
+
+Answer2. By using git init command.
+
+Answer3 By using following commands....
+         git config --global user.name "Your Name"
+         git config --global user.email "your email"
+
+Answer4. By using git add (file name) command.
+
+Answer5. By using git rm --cached (file name) command.
+
+Answer6. By using git commit -m "message"
+
+Answer7. The following steps are-
+         Step1. git commit -m "Your commit message"
+         Step2. git remote add origin <remote_repository_url>
+         Step3. git push -u origin main
+
+Answer8. 1. Clone:- The clone operation is typically used when you want to start working on a project from scratch or when you want to make a local copy of a repository to contribute to it 
+            or work on it independently.
+            syntax: git clone <remote repository url>
+
+         2. Pull:- The pull operation is typically used to update your local copy of a repository with the latest changes made by others.
+            syntax: git pull (repository name) main
