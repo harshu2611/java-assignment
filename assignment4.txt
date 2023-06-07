@@ -1,0 +1,26 @@
+Answer1. A programming language is a language designed to communicate instructions to a computer or machine. It provides a set of rules and syntax that allows programmers to write
+         code to solve specific problems or perform desired tasks. Programming languages serve as a medium for humans to interact with computers.
+
+Answer2. we ned programming language becuase of the following reasons:-
+         1.Communication with computers.
+         2.Software development.
+         3.problem solving.
+         4.efficiency and productivity.
+         5.scalibility and flexibility.
+
+Answer3. here are some features of java.
+         1.platform independence
+         2.object oriented programming (OOP)
+         3.security
+         4.multithreading support
+         5.exceptional handling
+
+Answer4. An object is a particular instance of a class. It is a runtime entity that encapsulates data (also known as attributes or properties) and the 
+         behaviors (methods) that operate on that data. Objects are the building blocks of object-oriented programming in Java.
+
+Answer5. A class is a blueprint or template that defines the structure, behavior, and state of objects. It serves as a fundamental building block of object-oriented programming (OOP).
+
+Answer6. The main() method is a special method that serves as the entry point for a Java program. It acts as the starting point of execution when you run a Java application.
+         Inside the main() method, you write the code that should be executed when the program starts running. This code can include variable declarations, control flow statements (if-else,
+         loops), method invocations, and other Java statements.
+         It's important to note that every Java application must have a main() method as the entry point. Without the main() method, the program cannot be executed directly.
