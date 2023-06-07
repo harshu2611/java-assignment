@@ -1,0 +1,78 @@
+Answer1. 1.Statically Typed Programming Language: In a statically typed programming language, variables are assigned types at compile-time, and the type checking is performed during the
+           compilation process. The type of each variable is explicitly declared or inferred by the compiler based on the context. Once a variable is assigned a type, it cannot be changed.      
+           Statically typed languages enforce type safety by ensuring that variables are used in a way consistent with their declared types. Examples of statically typed languages include     
+           Java, C, C++, and Swift.
+
+         2.Dynamically Typed Programming Language: In a dynamically typed programming language, variables are not bound to a specific type at compile-time. Instead, the type checking is 
+           performed at runtime, as the program is executed. Variables can hold values of different types throughout the execution of the program. Dynamically typed languages allow more 
+           flexibility as types can be determined and changed dynamically. Examples of dynamically typed languages include Python, JavaScript, Ruby, and PHP.
+
+Answer2. In Java, variables are named storage locations used to hold data values that can be manipulated and accessed throughout a program. Variables have a specific type, which determines   
+         the kind of data they can store and the operations that can be performed on them.
+
+Answer3. using assignment operator (=) we can assign a value to a variables.
+
+Answer4. In Java, primitive data types are the basic building blocks for storing simple values. They represent fundamental data types and have predefined characteristics and ranges of 
+         values. Java has eight primitive data types:
+         1. char
+         2. byte
+         3. int
+         4. short
+         5. long
+         6. float
+         7. double
+         8. boolean
+
+Answer5. In Java, identifiers are names used to identify variables, methods, classes, interfaces, packages, and other entities in a program. They provide a way to refer to these entities    
+         when writing code.  
+         
+Answer6. 1.Arithmetic Operators:
+           Addition (+)
+           Subtraction (-)
+           Multiplication (*)
+           Division (/)
+           Modulo (%)
+           Increment (++)
+           Decrement (--)
+         
+         2.Assignment Operators:
+           Assignment (=)
+           Addition assignment (+=)
+           Subtraction assignment (-=)
+           Multiplication assignment (*=)
+           Division assignment (/=)
+           Modulo assignment (%=)
+         
+         3.Relational Operators:
+           Equal to (==)
+           Not equal to (!=)
+           Greater than (>)
+           Less than (<)
+           Greater than or equal to (>=)
+           Less than or equal to (<=)
+         
+         4.Logical Operators:
+           Logical AND (&&)
+           Logical OR (||)
+           Logical NOT (!)
+
+Answer7. In Java, the increment (++) and decrement (--) operators are used to increase or decrease the value of a variable by 1, respectively. These operators can be applied to numeric    
+         variables (integers, floating-point numbers) and even characters.
+
+         The increment operator (++) adds 1 to the variable's current value, while the decrement operator (--) subtracts 1 from the variable's current value. They can be used in two forms:       
+         prefix and postfix.
+
+         1.Prefix Form: In the prefix form, the operator is placed before the variable name. The value of the variable is incremented or decremented before the expression is evaluated.
+                        The modified value is then used in the expression or assigned to another variable.
+          Example:
+                int num = 5;
+                int result = ++num;
+                System.out.println(result);  // Output: 6
+
+         2.Postfix Form: In the postfix form, the operator is placed after the variable name. The value of the variable is incremented or decremented after the expression is evaluated.
+                         The original value is used in the expression or assigned to another variable, and then the variable is modified.
+          Example:
+                int num = 5;
+                int result = num++;
+                System.out.println(result);  // Output: 5
+                System.out.println(num);     // Output: 6
