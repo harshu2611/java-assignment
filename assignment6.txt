@@ -1,0 +1,68 @@
+Answer1. In Java, conditional operators are used to perform logical comparisons and make decisions based on the result. There are three conditional operators in Java:
+         1.ternary operators
+         2.logical AND operators(&&)
+         3.logical OR operators(||)
+
+Answer2. Based on the number of operands, operators in Java can be classified into three categories:
+         1.Unary Operators: Unary operators work with a single operand. They perform operations on the operand and produce a result.
+         2.Binary Operators: Binary operators work with two operands. They perform operations on the operands and produce a result. 
+         3.Ternary Operator: The ternary operator (? :) is the only operator in Java that takes three operands. It evaluates a boolean expression and returns one of two values based on the 
+           result of the evaluation.
+
+Answer3.In Java programming, the switch-case statement is used to perform different actions based on the value of a variable or an expression. It provides an alternative way to write 
+        multiple if-else if statements when you have a specific value to compare against.
+
+        The switch-case statement consists of multiple case labels and an optional default label. The value being tested is compared against each case label, and when a match is found, the     
+        corresponding block of code is executed.
+        
+        Switch-case statements are particularly useful when you have a limited number of possible values to check against and want to perform different actions based on those values. They 
+        provide a cleaner and more readable alternative to using multiple if-else if statements.
+
+Answer4. The priority levels of arithmetic operators in Java, from highest to lowest, are as follows:
+         1.Parentheses:
+         2.Unary operators: Unary plus (+) and unary minus (-)
+         3.Multiplication (*), division (/), and remainder/modulo (%): 
+         4.Addition (+) and subtraction (-)
+
+Answer5. Conditional statements in Java are used to make decisions and execute different blocks of code based on the evaluation of a condition. They allow your program to take different 
+         paths of execution depending on whether a certain condition is true or false.
+         Java provides three types of conditional statements:
+         1.if statement
+         2.if-else statement
+         3.if-else if-else statement
+         
+         Conditional statements are essential for controlling the flow of execution in your program. They allow you to make decisions based on specific conditions and execute different 
+         blocks of code accordingly. With conditional statements, you can implement logic that adapts to different scenarios, enabling your program to be more flexible and responsive.
+
+
+Answer6. if (condition) {
+          // Code to be executed if the condition is true
+         }
+         else {
+         // Code to be executed if the condition is false
+         }
+
+Answer7. Java provides three types of iterative statements, also known as loop statements.
+         1.for loops
+         2.while loops
+         3.do-while loops
+
+Answwe8. 1.Syntax:
+           The for loop has a compact syntax that includes the initialization, condition, and iteration expressions in a single line within the loop header.
+           The do-while loop has a separate block of code followed by the loop condition.
+         2.Loop Condition Evaluation:
+           In the for loop, the loop condition is evaluated before each iteration. If the condition is false, the loop terminates without executing the block of code.
+           In the do-while loop, the block of code is executed first, and then the loop condition is evaluated. If the condition is false, the loop terminates after the first iteration.
+         3.Execution Order:
+           In the for loop, the initialization expression is executed once before the loop starts. Then, the loop condition is evaluated. If the condition is true, the block of code is 
+           executed, followed by the iteration expression. The loop condition is evaluated again, and this process repeats until the condition becomes false.
+           In the do-while loop, the block of code is executed first, regardless of the loop condition. After the block of code is executed, the loop condition is evaluated. If the
+           condition is true, the loop continues executing. If the condition is false, the loop terminates.
+
+Answer9.   public class PrintNumber {
+             public static void main(String[] args) {
+                for (int i = 1; i <= 10; i++) {
+                 System.out.println(i);
+              }
+            }
+          }
