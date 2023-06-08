@@ -1,0 +1,32 @@
+Answer1. To create an object in Java, you need to follow these steps:
+         1.Define a Class.
+         2.Instantiate an Object by using New keyword.
+         3.Access Object.
+
+Answer2. In Java, the new keyword is used to create an instance of a class called object
+         it also allocate memory for an object. 
+
+Answer3. There are mainly three types of variables in java:-
+         1. local variables
+         2. instance variables
+         3. static variables
+
+Answer4. 1. INSTANCE VARIABLE:- Instance variables are declared within a class but outside of any method, constructor, or block. They are also known as non-static variables because they                
+                                belong to individual instances (objects) of a class. Each object has its own copy of instance variables.                                                                                                
+        
+         2. LOCAL VARIABLES:- Local variables are declared within a method, constructor, or a block of code. They are only accessible within the scope where they are declared. Local    
+                              variables must be initialized before they are used.
+
+Answer5. Memory for instance variables is allocated on the heap.
+         Memory for local variables is allocated on the stack. 
+
+Answer6. Method overloading in Java refers to the ability to define multiple methods with the same name but different parameter lists within a class. It allows a class to have multiple 
+         methods with the same name but different behaviors based on the types and/or number of arguments passed to them.
+
+         The compiler determines which overloaded method to call based on the number, types, and order of the arguments provided when the method is invoked.
+
+         The following are the rules for method overloading:
+
+         1.Methods must have the same name.
+         2.Methods must be defined within the same class.
+         3.Methods must have different parameter lists.
