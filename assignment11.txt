@@ -1,0 +1,29 @@
+Answer1. In Java, a string is an object that represents a sequence of characters. It is part of the java.lang package and is one of the most commonly used classes in Java. 
+
+Answer2. In Java, there are two main types of strings:
+         1.mutable string
+         2.immutable string
+
+Answer3. In Java, there are several ways to create string objects. Here are the main ways to create string objects:
+
+         1.String Literal:- You can create a string object using string literals. String literals are enclosed in double quotation marks ("). When you use a string literal to create a string    
+           object, Java automatically creates a String object for you.
+           example- String str1 = "Hello, World!";
+         2.Using the new Keyword: You can create a string object using the new keyword along with the String class constructor. This method explicitly creates a new instance of the String 
+           class.
+           example- String str2 = new String("Hello, World!");
+
+Answer4. In Java, the string constant pool is a special memory area where string literals are stored. It is a part of the Java heap memory and is used to optimize memory usage and improve 
+         performance when working with strings.
+
+         When you create a string using a string literal (e.g., "Hello, World!"), Java stores that literal in the string constant pool. If you create multiple string literals with the same  
+         content, they will be stored only once in the string constant pool, resulting in memory savings.
+
+Answer5. 1.Mutable Objects: Mutable objects are objects whose state can be modified after they are created. In other words, their internal data or attributes can be changed. For example, you   
+         can modify the properties of a mutable object, add or remove elements from a collection, or update the values of its fields. The state of a mutable object can be altered throughout   
+         its lifetime.
+         
+         2.Immutable Objects: Immutable objects, on the other hand, are objects whose state cannot be modified after they are created. Once an immutable object is created, its internal data
+           or attributes remain constant and cannot be changed. If you need to modify an immutable object, you have to create a new object with the desired changes.
+
+Answer6. In Java, the string constant pool is located in the Java heap memory.
