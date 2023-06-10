@@ -1,0 +1,71 @@
+Answer1. The default value of an array depends on the data type of the elements in the array. Here are some common default values for different data types:
+
+         1.Integer types (int, long, short, etc.): The default value is typically 0.
+         2.Floating-point types (float, double): The default value is usually 0.0.
+         3.Boolean type (bool): The default value is often false (0).
+         4.Character types (char): The default value is usually the null character, which is represented as '\0'.
+         5.Object types (classes, structures, etc.): The default value is generally null.
+
+Answer2. No, it is not possible to pass a negative number as the size of an array. Array sizes must be non-negative integers. The size of an array determines the number of elements it can         
+         hold, and a negative size does not make sense.
+
+Answer3. In the Java Virtual Machine (JVM), arrays are stored in the heap memory.
+
+Answer4. Arrays have several disadvantages that you should consider when using them:
+         
+         1.Fixed Size
+         2.Continuous Memory Allocation
+         3.Not Suitable for Heterogeneous Data
+
+Answer5. In Java, an anonymous array is an array that is declared and instantiated without assigning it to a named variable. It is created on the fly and used directly in an expression or as 
+         an argument to a method.
+         example:-
+                  
+     public class Anonymous {
+    public static void main(String[] args) {
+        int numbers[] = new int[]{1, 2, 3, 4, 5};
+
+        int sum = calculateSum(new int[]{1, 2, 3, 4, 5});
+        System.out.println("Sum: " + sum);
+
+        printNames(new String[]{"harsh", "ram", "shyam"});
+    }
+
+    public static int calculateSum(int[] array) {
+        int sum = 0;
+        for (int num : array) {
+            sum += num;
+        }
+        return sum;
+    }
+
+    public static void printNames(String[] array) {
+        for (String name : array) {
+            System.out.println(name);
+        }
+    }
+}
+
+
+Answer6. In Java, there are several ways to traverse an array, depending on the specific requirements of your code. Here are some common approaches:
+
+         1.Using a for loop
+         2.Using an enhanced for loop (for-each loop)
+         
+Answer7. 1.length :- It is a property of arrays in Java, denoted without parentheses. The length property gives the number of elements in the array. It is used to access the size of 
+           an array and is a final variable that cannot be modified.
+
+         example:-
+               int[] numbers = {1, 2, 3, 4, 5};
+               int size = numbers.length;
+               System.out.println("Array size: " + size);
+
+        2.length() method: It is a method of the String class in Java, denoted with parentheses. The length() method is used to determine the number of characters in a string. It returns 
+          an integer representing the length of the string. 
+ 
+         example:-
+            String message = "Hello, world!";
+            int length = message.length();
+            System.out.println("String length: " + length);
+
+ 
