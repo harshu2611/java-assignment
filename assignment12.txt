@@ -1,0 +1,112 @@
+Answer1. 
+
+         import java.util.Scanner;
+
+         public class UserInputExample {
+                public static void main(String[] args) {
+                    Scanner scan = new Scanner(System.in);
+
+                         System.out.print("Enter a string: ");
+                          String userInput = scan.nextLine();
+
+                            System.out.println("You entered: " + userInput);
+                           }
+                        }
+
+Answer2. In Java, you can concatenate two strings using the concatenation operator + or by using the concat() method.
+
+         example:-
+                 public class StringConcatenationExample {
+                         public static void main(String[] args) {
+                           String str1 = "Hello";
+                           String str2 = "World";
+
+                         // Using the + operator
+                           String result1 = str1 + " " + str2;
+                           System.out.println("Using + operator: " + result1);
+
+                        // Using the concat() method
+                          String result2 = str1.concat(" ").concat(str2);
+                          System.out.println("Using concat() method: " + result2);
+                     }
+                 }
+
+
+Answer3. In Java, you can find the length of a string using the length() method. The length() method returns the number of characters in the string, including any whitespace characters. 
+          example:-
+                  
+                   public class StringLengthExample {
+                            public static void main(String[] args) {
+                                String str = "Hello, World!";
+                                  int length = str.length();
+
+                                   System.out.println("The length of the string is: " + length);
+                        }
+                    }
+
+Answer4. In Java, you can compare two strings for equality using the equals() method or the compareTo().
+
+         example:-
+                public class StringComparisonExample {
+                      public static void main(String[] args) {
+                         String str1 = "Hello";
+                         String str2 = "Hello";
+                         String str3 = "World";
+
+                    // Using the equals() method
+                          boolean isEqual1 = str1.equals(str2);
+                          System.out.println("Using equals() method: " + isEqual1);
+
+                    // Using the compareTo() method
+                          int comparisonResult = str1.compareTo(str3);
+                          System.out.println("Using compareTo() method: " + comparisonResult);
+                }
+            }
+
+Answer5. public class StringLengthExample {
+               public static void main(String[] args) {
+                  String str = "refrigerator";
+                  int length = str.length();
+
+                      System.out.println("The length of the string is: " + length);
+              }
+           }
+
+Answer6.           
+
+                public class LetterPresenceExample {
+                     public static void main(String[] args) {
+                        String word = "umbrella";
+                        char letter = 'e';
+
+                         boolean isPresent = false;
+
+                           for (int i = 0; i < word.length(); i++) {
+                                if (word.charAt(i) == letter) {
+                                    isPresent = true;
+                                        break;
+                                   }
+                               }
+
+                                if (isPresent) {
+                             System.out.println("The letter '" + letter + "' is present in the word '" + word + "'.");
+                               } else {
+                             System.out.println("The letter '" + letter + "' is not present in the word '" + word + "'.");
+                        }
+                  }
+           }
+
+Answer7. 
+
+            public class DeleteConsonantsExample {
+                 public static void main(String[] args) {
+                   String input = "hello, have a good day";
+        
+                    // Remove all consonants using regular expressions
+                     String result = input.replaceAll("[^aeiouAEIOU\\s]", "");
+        
+                     System.out.println("Original String: " + input);
+                     System.out.println("String without consonants: " + result);
+               }
+           }
+
